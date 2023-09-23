@@ -8,8 +8,8 @@ body {
     height: 100vh;
     width: 100vw;
     background: linear-gradient(30deg,
-    rgba(137, 4, 245, 96) 45%,
-    rgba(8, 28, 255, 100) 100%
+    rgba(191, 227, 191, 89) 45%,
+    rgba(48, 80, 58, 31) 100%
     );
 }
 .board{
