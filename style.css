@@ -132,7 +132,7 @@ body {
     color: rgb(226, 179, 61);
     background: white;
     
-    box-shadow: 0 0 10px rgb(226, 179, 61), 0 0 20px rgb(226, 179, 61), 0 0 30px rgb(226, 179, 61); /* Sombra da borda */
+    box-shadow: 0 0 5px rgb(226, 179, 61), 0 0 10px rgb(226, 179, 61), 0 0 20px rgb(226, 179, 61); /* Sombra da borda */
 }
 
 .winning-message p{
