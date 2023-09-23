@@ -7,9 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="board circle">
-        <div class="cell x" data-cell></div>
-        <div class="cell circle" data-cell></div>
+    <div class="board" data-board>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
@@ -18,9 +18,9 @@
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
     </div>
-    <div class="winning-message">
-        <p>X Venceu!</p>
-        <button>Reiniciar</button>
+    <div class="winning-message" data-winning-message>
+        <p class="winning-message-text" data-winning-message-text>X Venceu!</p>
+        <button class="winning-message-buttor" data-button-restart>Jogar Novamente</button>
     </div>
     <script src="./scripts.js"></script>
 </body>
