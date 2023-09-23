@@ -41,7 +41,7 @@ const endGame = (isDraw) => {
         winningMessageTextElement.innerText = "Velha!";
     } else {
         winningMessageTextElement.innerText = isCircleTurn 
-        ? "Circulo Venceu!"
+        ? "O Venceu!"
         : "X Venceu!";
     }
 
